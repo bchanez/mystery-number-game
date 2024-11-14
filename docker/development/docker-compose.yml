@@ -1,7 +1,7 @@
 services:
 
-  java-app:
-    container_name: java-app
+  java-mystery-number-game:
+    container_name: java-mystery-number-game
     build:
       context: ../../
       dockerfile: docker/development/Dockerfile
